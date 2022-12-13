@@ -17,6 +17,7 @@ let package = Package(
         .package(url: "https://github.com/ayham-achami/CUIKit.git", branch: "mainline"),
         .package(url: "https://github.com/ayham-achami/CRepository.git", branch: "mainline"),
         .package(url: "https://github.com/ayham-achami/CFoundation.git", branch: "mainline"),
+        .package(url: "https://github.com/realm/realm-cocoa.git", .upToNextMajor(from: "10.32.0")),
         .package(url: "https://github.com/Alamofire/AlamofireImage.git", .upToNextMajor(from: "4.2.0"))
     ],
     targets: [
@@ -38,6 +39,7 @@ let package = Package(
                                .target(name: "CoreNetworkWrapper"),
                                .product(name: "CRepository", package: "CRepository"),
                                .product(name: "CFoundation", package: "CFoundation"),
+                               .product(name: "RealmSwift", package: "realm-cocoa"),
                                .product(name: "CArch", package: "CArch")],
                 path: "IntegrationWrapper"),
         .binaryTarget(
