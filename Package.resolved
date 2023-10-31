@@ -1,30 +1,21 @@
 {
   "pins" : [
     {
-      "identity" : "alamofire",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Alamofire/Alamofire.git",
-      "state" : {
-        "revision" : "78424be314842833c04bc3bef5b72e85fff99204",
-        "version" : "5.6.4"
-      }
-    },
-    {
-      "identity" : "alamofireimage",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Alamofire/AlamofireImage.git",
-      "state" : {
-        "revision" : "98cbb00ce0ec5fc8e52a5b50a6bfc08d3e5aee10",
-        "version" : "4.2.0"
-      }
-    },
-    {
       "identity" : "carch",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/ayham-achami/CArch",
+      "location" : "https://github.com/ayham-achami/CArch.git",
       "state" : {
-        "branch" : "mainline",
-        "revision" : "88477e31d28046a85eefeccabafcf84fb642dfac"
+        "branch" : "feature/fix-module-components",
+        "revision" : "1ad9cd5a7e7aab5bae149ec9904a9c45e6573b64"
+      }
+    },
+    {
+      "identity" : "carchswinject",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ayham-achami/CArchSwinject.git",
+      "state" : {
+        "branch" : "feature/fix-registration",
+        "revision" : "119490e6dec05df1cc4c2bced803f2de48f2b6ef"
       }
     },
     {
@@ -37,48 +28,111 @@
       }
     },
     {
-      "identity" : "crepository",
+      "identity" : "collectionconcurrencykit",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/ayham-achami/CRepository.git",
+      "location" : "https://github.com/JohnSundell/CollectionConcurrencyKit.git",
       "state" : {
-        "branch" : "mainline",
-        "revision" : "9d9dacbd1cee7658e1a2a1e64001d72e83ef901e"
+        "revision" : "b4f23e24b5a1bff301efc5e70871083ca029ff95",
+        "version" : "0.2.0"
       }
     },
     {
-      "identity" : "crest",
+      "identity" : "cryptoswift",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/ayham-achami/CRest",
+      "location" : "https://github.com/krzyzanowskim/CryptoSwift.git",
       "state" : {
-        "branch" : "mainline",
-        "revision" : "dee9381e0bc5c31829cf844bd4c164a5bd33373c"
+        "revision" : "32f641cf24fc7abc1c591a2025e9f2f572648b0f",
+        "version" : "1.7.2"
       }
     },
     {
-      "identity" : "cuikit",
+      "identity" : "differencekit",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/ayham-achami/CUIKit.git",
+      "location" : "https://github.com/ra1028/DifferenceKit.git",
       "state" : {
-        "branch" : "mainline",
-        "revision" : "23536daaa0fb7a74576fa2ff561cbc4472960a12"
+        "revision" : "073b9671ce2b9b5b96398611427a1f929927e428",
+        "version" : "1.3.0"
       }
     },
     {
-      "identity" : "realm-cocoa",
+      "identity" : "sourcekitten",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/realm/realm-cocoa.git",
+      "location" : "https://github.com/jpsim/SourceKitten.git",
       "state" : {
-        "revision" : "b442ee3e9caa1abab26fd9b23f060f6f0815ff48",
-        "version" : "10.33.0"
+        "revision" : "b6dc09ee51dfb0c66e042d2328c017483a1a5d56",
+        "version" : "0.34.1"
       }
     },
     {
-      "identity" : "realm-core",
+      "identity" : "swift-argument-parser",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/realm/realm-core.git",
+      "location" : "https://github.com/apple/swift-argument-parser.git",
       "state" : {
-        "revision" : "b77443ca7fa25407869ca537bf3ae912b1427bff",
-        "version" : "12.13.0"
+        "revision" : "8f4d2753f0e4778c76d5f05ad16c74f707390531",
+        "version" : "1.2.3"
+      }
+    },
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-syntax.git",
+      "state" : {
+        "revision" : "74203046135342e4a4a627476dd6caf8b28fe11b",
+        "version" : "509.0.0"
+      }
+    },
+    {
+      "identity" : "swiftlint",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/SwiftLint",
+      "state" : {
+        "branch" : "main",
+        "revision" : "0c635e447f8be077d08cb111e19d7c1b71cc53a2"
+      }
+    },
+    {
+      "identity" : "swiftytexttable",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/scottrhoyt/SwiftyTextTable.git",
+      "state" : {
+        "revision" : "c6df6cf533d120716bff38f8ff9885e1ce2a4ac3",
+        "version" : "0.9.0"
+      }
+    },
+    {
+      "identity" : "swinject",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Swinject/Swinject.git",
+      "state" : {
+        "revision" : "463cb2d659c8ae34899d18057ea5b1bb86fc3178",
+        "version" : "2.8.4"
+      }
+    },
+    {
+      "identity" : "swinjectstoryboard",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Swinject/SwinjectStoryboard.git",
+      "state" : {
+        "revision" : "e4498ce2dfe37e1ca9d2d20af06fcc087507561c",
+        "version" : "2.2.3"
+      }
+    },
+    {
+      "identity" : "swxmlhash",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/drmohundro/SWXMLHash.git",
+      "state" : {
+        "revision" : "a853604c9e9a83ad9954c7e3d2a565273982471f",
+        "version" : "7.0.2"
+      }
+    },
+    {
+      "identity" : "yams",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jpsim/Yams.git",
+      "state" : {
+        "revision" : "0d9ee7ea8c4ebd4a489ad7a73d5c6cad55d6fed3",
+        "version" : "5.0.6"
       }
     }
   ],
